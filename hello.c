@@ -1,7 +1,11 @@
 #include<stdio.h>
-#include<conio.h>
-int main()
+
+void main()
  {
     printf("hello world\n");
-    return 0;
+   int a,b,c;
+  printf("Enter two numbers:");
+  scanf("%d %d",&a,&b);
+  c=a+b;
+  printf("\n The Sum:%d",c);
  }
